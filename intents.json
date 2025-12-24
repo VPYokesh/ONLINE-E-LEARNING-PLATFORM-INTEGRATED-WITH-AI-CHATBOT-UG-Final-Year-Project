@@ -1,0 +1,265 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hii","Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you with the Learning Management System today?", 
+      "Hi there! How can I help you with our platform?", 
+      "Hey! Welcome to our Learning Management System. What can I do for you?"]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "Who are you",
+        "What are you",
+        "About You",
+        "Tell me about yourself"
+      ],
+      "responses": [
+        "I am an AI assistant developed by E-Learn. My purpose is to assist and provide information to the best of my abilities."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+      "responses": ["Goodbye! Feel free to ask if you have any more questions.", 
+      "Bye! Have a great day ahead!", 
+      "Take care and see you next time!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot"],
+      "responses": ["You're welcome! If you need further assistance, just let me know.", "No problem! Happy to help.", "Glad I could assist you!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "How can you help?", "What can you do?"],
+      "responses": ["I can help you with tasks such as course enrollment, assignment submission, grades inquiry, and more. Feel free to ask about specific features.", 
+      "I'm here to assist you with any questions you have about our Learning Management System. Just let me know what you need help with!", 
+      "Need assistance? I'm here to guide you through our platform's features and functionalities."]
+    },
+    {
+      "tag": "course_enrollment",
+      "patterns": ["Enroll in a course", "How do I enroll in a course?", "I want to join a course", "How can I enroll in a course?", "What is the enrollment process?", "How do I sign up for a course?"],
+      "responses": ["To enroll in a course, please navigate to the course catalog and select the course you wish to enroll in. If you need further assistance, let me know.", 
+      "Enrolling in a course is easy! Just browse our course catalog, choose your desired course, and click on the Learn More and enroll Now. If you face any issues, feel free to ask for help.", 
+      "You can join a course by browsing our course catalog and selecting the course you're interested in. Follow the prompts to enroll, and you'll be on your way to learning!"]
+    },
+    {
+      "tag": "assignment_submission",
+      "patterns": ["Submit an assignment", "How do I submit my assignment?", "Assignment submission"],
+      "responses": ["To submit an assignment, go to the assignment submission section of your course and follow the instructions provided by your instructor.", 
+      "Submitting assignments is a breeze! Head over to your course's assignment submission page, upload your work, and submit it. If you need guidance, don't hesitate to ask.", 
+      "You can submit your assignment by accessing the assignment submission section in your course. Follow the steps provided to upload your assignment."]
+    },
+    {
+      "tag": "grades_inquiry",
+      "patterns": ["Check my grades", "How can I see my grades?", "Grades inquiry"],
+      "responses": ["You can view your grades by accessing the grades section of your course. If you encounter any issues, feel free to reach out to your instructor or the support team.", 
+      "Checking your grades is simple! Just navigate to the grades section in your course, and you'll find all your grades there. If you need assistance, let me know.", 
+      "You can inquire about your grades by visiting the grades section of your course. If you need further clarification, don't hesitate to ask your instructor."]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": ["Technical issue", "I'm having trouble", "Technical support"],
+      "responses": ["If you're experiencing technical issues, please provide more details about the problem you're encountering so that I can assist you accordingly.", 
+      "Facing technical difficulties? Let me know the specifics, and I'll do my best to troubleshoot the issue for you.", 
+      "I'm here to help with any technical issues you may encounter. Feel free to describe the problem, and I'll provide assistance."]
+    },
+    {
+      "tag": "course_price",
+      "patterns": ["Are the courses free?", "What is the cost of the courses?", "Do I have to pay for the courses?"],
+      "responses": ["We offer both free and paid courses. The price varies depending on the course and whether you choose to receive a certificate upon completion.", 
+      "Course prices vary depending on factors like content and certification. Some courses are free, while others require payment. You can find more details in the course descriptions.", 
+      "Our courses come in both free and paid options. Check the course catalog for specific pricing details."]
+    },
+    {
+      "tag": "course_rating",
+      "patterns": ["How are the courses rated?", "What is the course rating system?", "Can I see course ratings?"],
+      "responses": ["Our courses are rated by learners based on their experience. You can see the ratings for each course on our platform.", 
+      "Course ratings are provided by learners who have completed the courses. You can check the ratings for each course to gauge its quality and relevance.", 
+      "Course ratings reflect the experiences of learners who have taken the courses. You can view these ratings to help you decide which course to enroll in."]
+    },
+    {
+      "tag": "course_difficulty",
+      "patterns": ["How difficult are the courses?", "What is the course difficulty level?", "Are the courses suitable for beginners?"],
+      "responses": ["Our courses cater to learners of all levels, from beginners to advanced. Each course has a difficulty level indicated, such as beginner, intermediate, or advanced.", 
+      "Course difficulty levels vary, but we ensure that there are options suitable for learners of all skill levels. Whether you're a beginner or an expert, you'll find courses tailored to your needs.", 
+      "Our courses are designed to accommodate learners at various skill levels. Whether you're a beginner or an expert, you'll find courses that match your proficiency."]
+    },
+    {
+      "tag": "course_certificate",
+      "patterns": ["Do I get a certificate after completing a course?", "Is there a certificate for completing courses?", "Are certificates provided for courses?"],
+      "responses": ["Yes, we provide certificates of completion for many of our courses. Upon successfully finishing a course, you'll receive a certificate that you can add to your resume or LinkedIn profile.", "Upon completing a course, you'll receive a certificate of achievement. This certificate can be a valuable addition to your resume or professional portfolio.", "Certificates of completion are awarded to learners who successfully finish our courses. These certificates can enhance your credentials and showcase your skills to employers."]
+    },
+    {
+      "tag": "course_support",
+      "patterns": ["How can I get help with a course?", "Is there support available for courses?", "Where can I find course assistance?"],
+      "responses": ["If you need assistance with a course, you can reach out to our support team via email or live chat. We're here to help you with any questions or issues you may have.", 
+      "Course support is available via email and live chat. Don't hesitate to contact us if you need help with any aspect of your course.", 
+      "For course-related assistance, feel free to contact our support team through email or live chat. We're dedicated to helping you succeed in your learning journey."]
+    },
+
+    {
+      "tag": "course_recommendation",
+      "patterns": ["Can you recommend a course for me?", "I'm interested in learning something new, what course would you recommend?", "What course do you suggest for beginners in programming?"],
+      "responses": ["Certainly! Based on your interests and skill level, I recommend the course \"Introduction to Python Programming\". It's a beginner-friendly course that covers the fundamentals of Python programming.", 
+      "For beginners in programming, I suggest starting with the course \"Programming for Beginners\". It provides a solid foundation in programming concepts and languages.", 
+      "If you're looking to expand your programming skills, I recommend the course \"Java Essentials\". It's a great starting point for learning Java programming."]
+    },
+    {
+  "tag": "course_duration",
+  "patterns": [
+    "How long do the courses last?",
+    "What is the duration of the courses?",
+    "Do the courses have set durations?"
+  ],
+  "responses": [
+    "The duration of our courses varies depending on the subject and complexity. Some courses may last a few weeks, while others may take several months to complete.",
+    "Course durations vary to accommodate different learning needs. You can find specific duration information on each course's details page.",
+    "Our courses are designed with flexible durations to accommodate various learning paces. You can choose courses with durations that suit your schedule."
+  ]
+},{
+  "tag": "quiz_duration",
+  "patterns": [
+    "How long are the quizzes available?",
+    "What is the duration for taking quizzes?",
+    "Do quizzes have set time limits?"
+  ],
+  "responses": [
+    "The duration for taking quizzes may vary depending on the course and instructor. Some quizzes may have set time limits, while others may be available for a longer duration.",
+    "Quizzes typically have varying durations set by the course instructor. You can find specific information about quiz durations in the course materials.",
+    "Our platform offers flexibility in quiz durations to accommodate different learning paces. Some quizzes may have time limits, while others may be available for an extended period."
+  ]
+},
+{
+  "tag": "quiz_details",
+  "patterns": [
+    "What kind of questions are in the quizzes?",
+    "Can you tell me about the format of quizzes?",
+    "What topics do the quizzes cover?"
+  ],
+  "responses": [
+    "Our quizzes feature a variety of question types, including multiple-choice, true/false, short answer, and essay questions. The format may vary depending on the course and instructor.",
+    "Quizzes on our platform typically cover the topics discussed in the corresponding course modules. They may include multiple-choice, true/false, and short answer questions to assess your understanding of the material.",
+    "Quiz questions are designed to test your comprehension of the course material. They may include multiple-choice, true/false, and fill-in-the-blank questions. The topics covered in quizzes align with the content of the course."
+  ]
+},
+{
+  "tag": "course_details",
+  "patterns": [
+    "Tell me about the PHP with Laravel for beginners course.",
+    "What can I expect from the Become a Master in Laravel course?",
+    "Give me details about the User Experience Design Essentials course.",
+    "List the quiz"
+  ],
+  "responses": [
+    "Here are the available courses:\n1. PHP with Laravel for beginners - Become a Master in Laravel\n2. User Experience Design Essentials - Adobe XD UI UX Design",
+    "The PHP with Laravel for beginners course is designed to introduce you to web development using PHP and the Laravel framework. You'll learn the fundamentals of PHP programming and how to build web applications with Laravel.",
+    "Become a Master in Laravel is an advanced course that delves deeper into Laravel development. You'll explore advanced Laravel features, best practices, and techniques to become proficient in building robust web applications.",
+    "User Experience Design Essentials - Adobe XD UI UX Design covers the principles and practices of user experience (UX) design using Adobe XD. You'll learn how to create intuitive and visually appealing user interfaces (UI) while considering user needs and usability principles."
+  ]
+},
+
+{
+  "tag": "course_certificate",
+  "patterns": [
+    "Do I receive a certificate after completing a course?",
+    "Are certificates provided upon course completion?",
+    "Can I get a certificate for completing a course?"
+  ],
+  "responses": [
+    "Yes, we offer certificates upon successful completion of our courses. These certificates can be a valuable addition to your resume or professional portfolio.",
+    "Upon completing a course, you'll receive a certificate recognizing your achievement. Certificates are digitally issued and can be shared on professional networking platforms.",
+    "Earning a certificate is part of the learning experience with us. Upon course completion, you'll receive a certificate to validate your new skills and knowledge."
+  ]
+},
+    {
+      "tag": "course_language",
+      "patterns": ["In what languages are the courses available?", "Do you offer courses in languages other than English?", "Are the courses available in multiple languages?"],
+      "responses": ["Our courses are primarily available in English, but we also offer courses in other languages such as Spanish, French, and German. You can filter courses by language preference.", 
+      "In addition to English, we offer courses in multiple languages including Spanish, French, and German. You can select your preferred language when browsing the course catalog.", 
+      "We provide courses in various languages to cater to our diverse learner community. You can explore courses in languages such as Spanish, French, and German."]
+    },
+    {
+      "tag": "course_instructor",
+      "patterns": ["Who are the instructors for the courses?", "Can I know more about the course instructors?", "Are the courses taught by industry experts?"],
+      "responses": ["Our courses are taught by experienced instructors who are experts in their respective fields. Many of them have years of industry experience and are passionate about sharing their knowledge with learners.", 
+      "Our course instructors are industry professionals with extensive experience in their respective fields. They bring real-world expertise to the courses, ensuring that you receive high-quality instruction.", 
+      "Our instructors are seasoned professionals with hands-on experience in their fields. They are committed to providing you with valuable insights and practical knowledge."]
+    },
+    {
+      "tag": "course_info",
+      "patterns": ["list the course","courses you offer","list some courses",
+        "Tell me about Java Programming Masterclass covering Java 11 & Java 17",
+        "What is covered in The Complete JavaScript Course 2022: From Zero to Expert!",
+        "Can you provide details of Build Responsive Real-World Websites with HTML and CSS?",
+        "Describe User Experience Design Essentials - Adobe XD UI UX Design course",
+        "What will I learn in The Complete SQL Bootcamp 2022: Go from Zero to Hero?",
+        "Give me information about The Complete Front-End Web Development Course!",
+        "What is included in The Complete 2022 Web Development Bootcamp?",
+        "Details of Android App Development with Kotlin | Beginner to Advanced",
+        "Tell me about iOS & Swift - The Complete iOS App Development Bootcamp",
+        "What is taught in Full Stack-site complet Front REACT & Back PHP/MySQL/MVC/POO?",
+        "What will I learn in Build an app with ASPNET Core and Angular from scratch?",
+        "Can you describe PHP with Laravel for beginners - Become a Master in Laravel course?"
+      ],
+      "responses": [
+        "Java Programming Masterclass covering Java 11 & Java 17: Are you aiming to get your first Java Programming job but struggling to find out what skills employers want and which course will give you those skills? This course is designed to give you the Java skills you need to get a job as a Java developer. By the end of the course, you will understand Java extremely well and be able to build your own Java apps and be productive as a software developer. Lots of students have been successful in getting their first job or promotion after going through the course. Here is just one example of a student who lost her job and despite having never coded in her life previously, got a full-time software developer position in just a few months after starting this course. She didn't even complete the course",
+        "The Complete JavaScript Course 2022: From Zero to Expert!: This is the most complete JavaScript course on Udemy. It's an all-in-one package that will take you from the very fundamentals of JavaScript, all the way to building modern and complex applications. You will learn modern JavaScript from the very beginning, step-by-step. I will guide you through practical and fun code examples, important theory about how JavaScript works behind the scenes, and beautiful and complete projects. You will also learn how to think like a developer, how to plan application features, how to architect your code, how to debug code, and a lot of other real-world skills that you will need on your developer job. And unlike other courses, this one actually contains beginner, intermediate, advanced, and even expert topics, so you don't have to buy any other course in order to master JavaScript from the ground up. But... You don't have to go into all these topics.",
+        "Build Responsive Real-World Websites with HTML and CSS: This course is for both beginners and seasoned developers that want to learn how to build responsive websites and user interfaces with modern HTML5 and CSS3+ technologies like Flexbox and CSS Grid as well as the Sass pre-compiler. This course includes hours of both learning & studying sections along with real-life projects. Stop having to rely on frameworks like Bootstrap for your user interface and learn how to create your own layouts and utility classes to build custom responsive websites and app UIs. The first few sections are tailored for beginners so even if you have never built anything before, you will learn all of the basics. If you already have experience with basic HTML & CSS, just move to section 3 or 4 and get started.",
+        "User Experience Design Essentials - Adobe XD UI UX Design: Are you excited to get into the world of UI/UX but you don't know where to start? This course will allow you to add UX designer to your CV & start getting paid for your new skills. Hi there! My name is Dan & I'm an Adobe Certified Instructor. I'm here to help you learn Adobe XD efficiently and comprehensively. XD is a fantastic design tool used by industry professionals to produce high-quality & functional mockups. By the end of this course, you will be able to produce practical and effective User Experience (UX) and User Interface (UI) designs. Throughout the course, I'll invite you to participate in a real-life freelance project which I'm working on. It's a project that requires a fresh website and mobile app interface. This will prepare you for dealing with real-world projects if you choose to move towards a UX/UI career path.",
+        "The Complete SQL Bootcamp 2022: Go from Zero to Hero: This is a course that puts you in control, having you set up and restore databases right at the start of the course, instead of watching someone else code. Every section comes with fresh challenge questions and tasks, modeled after real-world tasks and situations. I've spent years as an instructor both online and in-person at Fortune 500 companies, and this course is built to combine the best of both worlds, allowing you to learn at your own pace through an interactive environment. You will start with the basics and soon find yourself working with advanced commands, dealing with timestamp data and variable character information like a seasoned professional. SQL is one of the most in-demand skills for business analysts, data scientists, and anyone who finds themselves working with data! Upgrade your skill set quickly and add SQL to your resume by joining today! I see you inside the course! Check out the free preview videos for more information.",
+        "The Complete Front-End Web Development Course!: Simple text site - We will use what we learned in the HTML sections to create a simple text site. This project will help you learn HTML structure and the essential elements. Fallout inspired Pip-Boy - We will take what we learned in the CSS and Bootstrap sections of the course to code a Pip-Boy from the game Fallout. This project will help you learn the design elements of modern web development. Google Chrome extension - We will finish the course by programming a JavaScript-based Google Chrome extension. This project will help you understand the logical parts of web development. This course covers the most popular web development frameworks and will get you started on your path towards becoming a full-stack web developer.",
+        "The Complete 2022 Web Development Bootcamp: Welcome to the Complete Web Development Bootcamp, the only course you need to learn to code and become a full-stack web developer. With 150,000+ ratings and a 4.8 average, my Web Development course is one of the HIGHEST RATED courses in the history of Udemy! At 65+ hours, this Web Development course is without a doubt the most comprehensive web development course available online. Even if you have zero programming experience, this course will take you from beginner to mastery.",
+        "Android App Development with Kotlin | Beginner to Advanced: Welcome to Android App Development with Kotlin | Beginner to Advanced course. Android App Development, Android, Kotlin, Android Kotlin, Kotlin Android, Android 11, Android 12, Android app projects, Java Kotlin Android 11 App Development with Kotlin, Android Studio, Object-Oriented Programming, Android App Project, and Android 12 Kotlin is popular for both Android developers and Java developers. Whether you want to learn Kotlin in order to build your next Android app or simply need an introduction to the language, Udemy has a top-rated course to help you achieve your goals. Android app development, android, android studio, android 11, android development, android 11 app development, android studio java, oak academy, android app, full android course with 14 real apps, android java, android app development java, full android course with 14 real apps, java android, full android course, android full course, android studio course, kotlin, app development, android apps, android apps, android 11 development, android java masterclass Kotlin is a very new and up-to-date programming language. Kotlin android is accepted by Google as the official language for Android development. Therefore, it is a language that everyone who wants to be an android developer should know. In this course, we teach Kotlin programming language from beginner to advanced level, considering the importance of Kotlin.",
+        "iOS & Swift - The Complete iOS App Development Bootcamp: Welcome to the Complete iOS App Development Bootcamp. With over 39,000 5-star ratings and a 4.8 average, my iOS course is the HIGHEST RATED iOS Course in the history of Udemy! At 55+ hours, this iOS 13 course is the most comprehensive iOS development course online! This Swift 5.1 course is based on our in-person app development bootcamp in London, where we've perfected the curriculum over 4 years of in-person teaching. Our complete app development bootcamp teaches you how to code using Swift 5.1 and build beautiful iOS 13 apps for iPhone and iPad. Even if you have ZERO programming experience. I'll take you step-by-step through engaging and fun video tutorials and teach you everything you need to know to succeed as an iOS app developer. The course includes 55+ hours of HD video tutorials and builds your programming knowledge while making real-world apps. e.g. Pokemon Go, Whatsapp, QuizUp, and Yahoo Weather.",
+        "Full Stack-site complet Front REACT & Back PHP/MySQL/MVC/POO: Although the evolution is progressive and each step is detailed, the course is not intended for beginners and it is necessary to have solid skills in PHP programming, in POO and to know how to develop with REACT. If necessary, do not hesitate to take the courses I offer to help you acquire the necessary level (details are presented in the H2PROG training course).",
+        "Build an app with ASPNET Core and Angular from scratch: Have you learned the basics of ASP.NET Core and Angular? Not sure where to go next? This course should be able to help with that. In this course we start from nothing and incrementally build up our API and Angular front end until we have a fully functional Web Application that we then publish to IIS and a Linux server. These are 2 of the hottest frameworks right now for the back-end (Microsoft ASP.NET Core) and the front-end (Google Angular) and are well worth spending the time to learn. In this course we build a complete application from start to finish and every line of code is demonstrated and explained. This course is right up to date as at November 2021 using .Net 6.0 and Angular v12 and as these frameworks evolve, this course will evolve with it.",
+        "PHP with Laravel for beginners - Become a Master in Laravel: Laravel has become one of the most popular if not the most popular PHP framework. Employers are asking for this skill for all web programming jobs and in this course, we have put together all of them, to give you the best chance of landing that job or taking it to the next level. Why is Laravel so popular Because once you learn it, creating complex applications is easy to do because thousands of other people have created code we can plug (packages) into our Laravel application to make it even better. There are many reasons why Laravel is on the top when it comes to PHP frameworks but we are not here to talk about that, right You are here because you want to learn Laravel, and find out what course to take, right Alright, let's list what this course has to offer so that you can make your decision."
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": ["What is data science", "What are the applications of data science?", "What skills are required for data science?"],
+      "responses": [
+        "Data science is an interdisciplinary field that uses scientific methods, algorithms, processes, and systems to extract insights and knowledge from structured and unstructured data."
+      ]
+    },
+    {
+      "tag": "course_details",
+      "patterns": [
+        "course",
+        "Tell me about Python for Data Science course",
+        "What does Deep Learning course cover?",
+        "Can you give me details about Cloud Computing course?",
+        "What are the topics covered in Blockchain Fundamentals course?",
+        "Tell me about Devops course",
+        "What is data science",
+        "What are the applications of data science?",
+        "What skills are required for data science?"
+      ],
+      "responses": [
+        "Python for Data Science teaches Python programming language with a focus on its applications in data science. You'll learn data manipulation, visualization, and machine learning techniques using Python.",
+        "Deep Learning explores advanced topics in machine learning and artificial intelligence with a focus on deep learning algorithms and neural networks. You'll learn to build and train deep learning models for various applications.",
+        "Cloud Computing course teaches about cloud computing platforms and services such as Amazon Web Services (AWS) and Microsoft Azure. You'll understand cloud architecture, deployment models, and best practices for cloud-based solutions.",
+        "Blockchain Fundamentals provides a comprehensive understanding of blockchain technology and its applications beyond cryptocurrency. You'll learn about smart contracts, decentralized applications (DApps), and blockchain security.",
+        "DevOps explores DevOps principles and practices for improving software development and deployment processes. You'll learn about automation, continuous integration/continuous deployment (CI/CD), and infrastructure as code (IaC).",
+        "Data science is an interdisciplinary field that uses scientific methods, algorithms, processes, and systems to extract insights and knowledge from structured and unstructured data.",
+        "Predictive analytics, Machine learning, Data visualization, Statistical analysis, Natural language processing, Big data analysis",
+        "Programming (e.g., Python, R), Statistics, Data manipulation and preprocessing, Machine learning algorithms, Data visualization, Domain knowledge"
+      ]
+    },
+    {
+      "tag": "Java_Programming_Masterclass",
+      "patterns": [
+      "What is the Java Programming Masterclass covering Java 11 & Java 17?",
+      "What does the Java Programming Masterclass covering Java 11 & Java 17 offer?",
+      "Can you tell me about the Java Programming Masterclass covering Java 11 & Java 17?"
+      ],
+      "responses": [
+      "The Java Programming Masterclass covering Java 11 & Java 17 is a comprehensive course designed to equip you with the necessary Java skills to excel as a Java developer. Taught by Aaron M. Garrison, this course provides in-depth knowledge of Java programming from basic concepts to advanced topics. By the end of the 80-hour duration, you'll gain proficiency in Java programming and be able to develop your own Java applications. Many students have successfully transitioned into Java development roles or advanced in their careers after completing this course."
+      ]
+      }
+  ]
+}

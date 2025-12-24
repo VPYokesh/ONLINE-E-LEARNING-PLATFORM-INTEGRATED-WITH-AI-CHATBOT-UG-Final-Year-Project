@@ -1,0 +1,15 @@
+{
+    "name": "ypara/elearnchatbot",
+    "autoload": {
+        "psr-4": {
+            "Ypara\\Elearnchatbot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VPYokesh",
+            "email": "yparasu2004@gmail.com"
+        }
+    ],
+    "require": {}
+}
