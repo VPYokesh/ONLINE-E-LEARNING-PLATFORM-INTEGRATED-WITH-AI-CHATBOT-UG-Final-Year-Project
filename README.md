@@ -87,3 +87,4 @@ The system supports students, instructors, and administrators with a secure, int
 git clone https://github.com/your-username/online-elearning-ai-chatbot.git
 cd online-elearning-ai-chatbot
 
+📸 Screenshots
