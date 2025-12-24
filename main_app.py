@@ -21,8 +21,6 @@ def predict():
     return jsonify(message)
 
 
-openai.api_key = os.environ.get("Insert your API Key")
-
 @app.route('/')
 def index():
     return render_template('base.php')
