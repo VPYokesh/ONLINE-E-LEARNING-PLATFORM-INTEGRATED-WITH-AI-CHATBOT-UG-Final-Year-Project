@@ -21,7 +21,7 @@ def predict():
     return jsonify(message)
 
 
-openai.api_key = os.environ.get("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")
+openai.api_key = os.environ.get("Insert your API Key")
 
 @app.route('/')
 def index():
