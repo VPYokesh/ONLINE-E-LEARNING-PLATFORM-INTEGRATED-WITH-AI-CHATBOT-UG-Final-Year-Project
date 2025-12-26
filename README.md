@@ -34,6 +34,24 @@ The system supports students, instructors, and administrators with a secure, int
 
 ---
 
+## 📸 Application Screenshots
+
+Below are sample screenshots of the **Online E-Learning Platform integrated with AI Chatbot**, demonstrating key user interfaces and functionalities.
+
+### 🏠 Home Page
+![Home Page](screenshots/home_page.png)
+
+The home page provides an overview of the platform, navigation menus, and quick access to courses, profile, and chatbot assistance.
+
+---
+
+### 📚 Courses Page
+![Courses Page](screenshots/courses_page.png)
+
+The courses page displays all available courses with details such as title, instructor, price, and enrollment options.
+
+---
+
 ## 🧠 AI Chatbot Module
 - Developed using **Python**
 - Uses **Flask framework**
