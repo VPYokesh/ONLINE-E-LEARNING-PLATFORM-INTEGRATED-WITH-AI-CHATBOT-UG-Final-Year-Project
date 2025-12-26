@@ -6,13 +6,6 @@ The system supports students, instructors, and administrators with a secure, int
 
 ---
 
-## 🎓 Academic Details
-- **Degree**: B.Sc Computer Science (Final Semester Project)
-- **Institution**: VIT, Vellore
-- **Project Duration**: January 2024 – May 2024
-
----
-
 ## 👨‍💻 Team Members
 - **Yokesh V P** (21BCS0098)  
 - **Sivashankar P** (21BCS0089)
